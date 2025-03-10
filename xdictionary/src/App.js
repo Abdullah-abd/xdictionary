@@ -31,7 +31,7 @@ function App() {
         <button type="submit">Search</button>
       </form>
       {definition && <h3>Definition:</h3>}
-      {definition && <h3>{definition}</h3>}
+      {definition && <p>{definition}</p>}
     </div>
   );
 }
